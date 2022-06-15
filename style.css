@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', Helvetica, Arial, sans-serif;
+}
+
+/* Header */
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+.header div{
+    background-color: #e36a57;
+    width: 100%;
+    height: 1.8em;
+}
+
+.header div i{
+    color: white;
+    font-size: 10pt;
+    padding: .6em;
+    float: right;
+    margin-right: .3em;
+}
+
+.header div i:hover{
+    background-color: rgb(54, 54, 205);
+}
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    background-color: #253568;
+    width: 100%;
+    height: max-content;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav img{
+    height: 5.5em;
+    width: auto;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li{
+    padding: 2em 1em;
+    position: relative;
+}
+
+nav ul li a,
+nav p a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10pt;
+}
+
+nav ul li .dropdown-menu{
+    display: none;
+}
+
+nav ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    background-color: #253568;
+    margin-top: 2.25em;
+    margin-left: -8px;
+}
+
+
+nav ul li:hover .dropdown-menu li{
+    width: 6em;
+    padding: 1em;
+
+}
+
+nav ul li:hover .dropdown-menu li:hover{
+    background-color: #e36a57;
+}
+
+nav button{
+    padding: .9em;
+    border: 1px solid #e36a57;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 10pt;
+}
+
+.first-btn{
+    color: #e36a57;
+}
+
+.first-btn:hover{
+    color: white;
+    font-weight: 600;
+    background-color: #e36a57;
+    cursor: pointer;
+}
+
+.second-btn{
+    color: white;
+    font-weight: 600;
+    background-color: #e36a57;
+}
+
+.second-btn:hover{
+    background-color: transparent;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.flag{
+    height: .7em;
+    width: auto;
+}
+
+nav p a:hover{
+    color: #e6e6e6;
+}
+
+/* x - Navigation Bar - x */
+/* x - Header - x */
+
+/* Body */
+
+/* Red Panda Image */
+.red-pandas{
+    width: 100%;
+    height: 45em;
+    margin-top: 4.3em;
+    /* position: relative; */
+}
+
+/* .body-img h1{
+    position: absolute;
+    top: 0;
+} */
+
+.body-img div{
+    padding: 1em;
+    text-align: center;
+}
+
+.body-img div h1{
+    text-transform: uppercase;
+    font-size: 36pt;
+    font-weight: 600;
+}
+
+.body-img div .btns button,
+.divider-1 button{
+    border-radius: 25px;
+    padding: 1.3em;
+    border: none;
+    text-transform: uppercase;
+    font-size: 9pt;
+    width: 13em;
+}
+
+.body-img div .btns a:first-child button{
+    border: 3px solid white;
+    background: #0000004e;
+    color: white;
+    font-weight: 600;
+}
+
+.body-img div .btns a:nth-child(2) button{
+    background: #e36a57;
+    color: white;
+    font-weight: 600;
+    border-bottom: 1px solid #d55a47;
+}
+
+.body-img div .btns a button:hover{
+    font-weight: 400;
+    cursor: pointer;
+    transition: 500ms;
+    color: #e6e6e6;
+}
+
+.body-img div .btns a:first-child button:hover{
+    background: #0000003a;
+}
+
+.body-img div .btns a:nth-child(2) button:hover{
+    background: #e36a57e5;
+}
+/* x - Red Panda Image - x */
+
+/* Divider 1 */
+
+.divider-1{
+    width: 100%;
+    height: 18em;
+    background: #e36a57;
+    text-align: center;
+}
+
+.divider-1 p{
+    color: white;
+    font-weight: 500;
+    font-size: 15pt;
+    line-height: 1.5;
+    padding: 4em 4em 0 4em;
+}
+
+.divider-1 button{
+    border: 3px solid white;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    margin-top: 2em;
+    border-radius: 18px;
+    text-transform: none;
+}
+
+.divider-1 button:hover{
+    cursor: pointer;
+    transition: 500ms;
+    color: #e6e6e6;
+    font-weight: 300;
+    background-color: rgba(240, 240, 240, 0.088);
+}
+
+/* x - Divider 1 - x */
+
+
+
+
